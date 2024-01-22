@@ -37,6 +37,26 @@ Widget::Widget(QWidget *parent)
     neg_but_->setFixedSize(but_size);
     Layout->addWidget(neg_but_, 4, 0);
 
+    div_but_ = new QPushButton("/", this);
+    div_but_->setFont(font3);
+    div_but_->setFixedSize(but_size);
+    Layout->addWidget(div_but_, 1, 3);
+
+    mul_but_ = new QPushButton("×", this);
+    mul_but_->setFont(font3);
+    mul_but_->setFixedSize(but_size);
+    Layout->addWidget(mul_but_, 2, 3);
+
+    sub_but_ = new QPushButton("-", this);
+    sub_but_->setFont(font3);
+    sub_but_->setFixedSize(but_size);
+    Layout->addWidget(sub_but_, 3, 3);
+
+    add_but_ = new QPushButton("+", this);
+    add_but_->setFont(font3);
+    add_but_->setFixedSize(but_size);
+    Layout->addWidget(add_but_, 4, 3);
+
 }
 
 Widget::~Widget() {}
