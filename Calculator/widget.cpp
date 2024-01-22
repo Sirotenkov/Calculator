@@ -26,6 +26,17 @@ Widget::Widget(QWidget *parent)
         if (i==0) Layout->addWidget(numbers[i], 4, 1);
         else Layout->addWidget(numbers[i], (3 - ((i - 1)/3)), ((i - 1)%3));
     }
+
+    equ_but_ = new QPushButton("=", this);
+    equ_but_->setFont(font3);
+    equ_but_->setFixedSize(but_size);
+    Layout->addWidget(equ_but_, 4, 2);
+
+    neg_but_ = new QPushButton("±", this);
+    neg_but_->setFont(font3);
+    neg_but_->setFixedSize(but_size);
+    Layout->addWidget(neg_but_, 4, 0);
+
 }
 
 Widget::~Widget() {}
