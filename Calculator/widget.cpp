@@ -11,11 +11,18 @@ Widget::Widget(QWidget *parent)
     Layout->setSizeConstraint(QLayout::SetFixedSize);
     Layout->setSpacing(1);
 
+    QFont const font1("Courrier New", 24, QFont::Bold);
+    QFont font2("Courrier New", 20, QFont::Medium);
+    QFont font3("Courrier New", 16, QFont::ExtraLight);
+    QFontMetrics const metrics(font2);
+    QSize const but_size(metrics.height() * 1.5, metrics.height());
+
     for (std::size_t i=0; i<10; ++i)
     {
         numbers[i] = new QPushButton(QString::number(i), this);
         numbers[i]->setProperty("number", i);
-
+        numbers[i]->setFont(font2);
+        numbers[i]->setFixedSize(but_size);
         if (i==0) Layout->addWidget(numbers[i], 4, 1);
         else Layout->addWidget(numbers[i], (3 - ((i - 1)/3)), ((i - 1)%3));
     }
