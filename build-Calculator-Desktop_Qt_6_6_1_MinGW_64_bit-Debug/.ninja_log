@@ -1,0 +1,17 @@
+# ninja log v5
+2	467	7276493822292045	Calculator_autogen/timestamp	df61387379098475
+2	467	7276493822292045	Calculator_autogen/mocs_compilation.cpp	df61387379098475
+2	467	7276493822292045	C:/Users/sirot/Desktop/Calculator/build-Calculator-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/Calculator_autogen/timestamp	df61387379098475
+2	467	7276493822292045	C:/Users/sirot/Desktop/Calculator/build-Calculator-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/Calculator_autogen/mocs_compilation.cpp	df61387379098475
+472	2463	7276493842756440	CMakeFiles/Calculator.dir/widget.cpp.obj	ef4c829376f9b178
+468	2480	7276493842927905	CMakeFiles/Calculator.dir/Calculator_autogen/mocs_compilation.cpp.obj	19f13484e0eb1553
+475	2574	7276493843882529	CMakeFiles/Calculator.dir/main.cpp.obj	bbab04a418bac453
+2574	2763	7276493845702793	Calculator.exe	d3e4cb776c79ff27
+20	437	7276494938384354	Calculator_autogen/timestamp	df61387379098475
+20	437	7276494938384354	Calculator_autogen/mocs_compilation.cpp	df61387379098475
+20	437	7276494938384354	C:/Users/sirot/Desktop/Calculator/build-Calculator-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/Calculator_autogen/timestamp	df61387379098475
+20	437	7276494938384354	C:/Users/sirot/Desktop/Calculator/build-Calculator-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/Calculator_autogen/mocs_compilation.cpp	df61387379098475
+438	2730	7276494961852962	CMakeFiles/Calculator.dir/Calculator_autogen/mocs_compilation.cpp.obj	19f13484e0eb1553
+447	2759	7276494962140615	CMakeFiles/Calculator.dir/widget.cpp.obj	ef4c829376f9b178
+442	2829	7276494962746037	CMakeFiles/Calculator.dir/main.cpp.obj	bbab04a418bac453
+2829	2985	7276494964358780	Calculator.exe	d3e4cb776c79ff27
