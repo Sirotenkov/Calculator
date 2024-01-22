@@ -11,7 +11,7 @@ Widget::Widget(QWidget *parent)
     Layout->setSizeConstraint(QLayout::SetFixedSize);
     Layout->setSpacing(1);
 
-    QFont const font1("Courrier New", 24, QFont::Bold);
+    QFont const font1("Courrier New", 24, QFont::Medium);
     QFont font2("Courrier New", 20, QFont::Medium);
     QFont font3("Courrier New", 16, QFont::ExtraLight);
     QFontMetrics const metrics(font2);
@@ -57,6 +57,15 @@ Widget::Widget(QWidget *parent)
     add_but_->setFixedSize(but_size);
     Layout->addWidget(add_but_, 4, 3);
 
+    display_ = new QLineEdit("0", this);
+    Layout->addWidget(display_, 0, 0, 1, 4);
+    display_->setAlignment(Qt::AlignRight);
+    display_->setReadOnly(true);
+    display_->setMaxLength(15);
+    display_->setFont(font1);
+
+    setLayout(Layout);
+    setWindowTitle("Integer Calculator");
 }
 
 Widget::~Widget() {}
