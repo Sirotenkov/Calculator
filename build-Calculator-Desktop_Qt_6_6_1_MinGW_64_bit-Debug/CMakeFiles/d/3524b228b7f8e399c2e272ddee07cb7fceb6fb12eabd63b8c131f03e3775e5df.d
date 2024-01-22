@@ -200,6 +200,7 @@ Calculator_autogen/timestamp: \
   C:/Qt_6/6.6.1/mingw_64/include/QtCore/qtversionchecks.h \
   C:/Qt_6/6.6.1/mingw_64/include/QtCore/qtypeinfo.h \
   C:/Qt_6/6.6.1/mingw_64/include/QtCore/qtypes.h \
+  C:/Qt_6/6.6.1/mingw_64/include/QtCore/qurl.h \
   C:/Qt_6/6.6.1/mingw_64/include/QtCore/qutf8stringview.h \
   C:/Qt_6/6.6.1/mingw_64/include/QtCore/qvariant.h \
   C:/Qt_6/6.6.1/mingw_64/include/QtCore/qvarlengtharray.h \
@@ -218,19 +219,30 @@ Calculator_autogen/timestamp: \
   C:/Qt_6/6.6.1/mingw_64/include/QtGui/qkeysequence.h \
   C:/Qt_6/6.6.1/mingw_64/include/QtGui/qpaintdevice.h \
   C:/Qt_6/6.6.1/mingw_64/include/QtGui/qpalette.h \
+  C:/Qt_6/6.6.1/mingw_64/include/QtGui/qpen.h \
   C:/Qt_6/6.6.1/mingw_64/include/QtGui/qpixelformat.h \
   C:/Qt_6/6.6.1/mingw_64/include/QtGui/qpixmap.h \
   C:/Qt_6/6.6.1/mingw_64/include/QtGui/qpolygon.h \
   C:/Qt_6/6.6.1/mingw_64/include/QtGui/qregion.h \
   C:/Qt_6/6.6.1/mingw_64/include/QtGui/qrgb.h \
   C:/Qt_6/6.6.1/mingw_64/include/QtGui/qrgba64.h \
+  C:/Qt_6/6.6.1/mingw_64/include/QtGui/qtextcursor.h \
+  C:/Qt_6/6.6.1/mingw_64/include/QtGui/qtextdocument.h \
+  C:/Qt_6/6.6.1/mingw_64/include/QtGui/qtextformat.h \
+  C:/Qt_6/6.6.1/mingw_64/include/QtGui/qtextoption.h \
   C:/Qt_6/6.6.1/mingw_64/include/QtGui/qtgui-config.h \
   C:/Qt_6/6.6.1/mingw_64/include/QtGui/qtguiexports.h \
   C:/Qt_6/6.6.1/mingw_64/include/QtGui/qtguiglobal.h \
   C:/Qt_6/6.6.1/mingw_64/include/QtGui/qtransform.h \
   C:/Qt_6/6.6.1/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt_6/6.6.1/mingw_64/include/QtGui/qwindowdefs_win.h \
+  C:/Qt_6/6.6.1/mingw_64/include/QtWidgets/QLineEdit \
+  C:/Qt_6/6.6.1/mingw_64/include/QtWidgets/QPushButton \
   C:/Qt_6/6.6.1/mingw_64/include/QtWidgets/QWidget \
+  C:/Qt_6/6.6.1/mingw_64/include/QtWidgets/qabstractbutton.h \
+  C:/Qt_6/6.6.1/mingw_64/include/QtWidgets/qframe.h \
+  C:/Qt_6/6.6.1/mingw_64/include/QtWidgets/qlineedit.h \
+  C:/Qt_6/6.6.1/mingw_64/include/QtWidgets/qpushbutton.h \
   C:/Qt_6/6.6.1/mingw_64/include/QtWidgets/qsizepolicy.h \
   C:/Qt_6/6.6.1/mingw_64/include/QtWidgets/qtwidgets-config.h \
   C:/Qt_6/6.6.1/mingw_64/include/QtWidgets/qtwidgetsexports.h \
