@@ -34,7 +34,7 @@ private:
     QPushButton *neg_but_;
     QLineEdit *display_;
 
-    Operation op {None};
+    Operation op = None;
     double result_ = 0;
 };
 #endif // WIDGET_H
